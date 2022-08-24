@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript"src=".\js\main.js"></script>
+
+</head>
+
+<body>
+    <form id="frm1" action="Calculate.html">
+        <table id="xTable">
+            <thead>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                </tr>
+            </thead>
+            <tr class="row">
+                <td>
+                    <select name="products">
+                        <option value="80">Product-A</option>
+                        <option value="80">Product-B</option>
+                        <option value="80">Product-C</option>
+                        <option value="80">Product-D</option>
+                        <option value="16">Product-E</option>
+                    </select>
+                </td>
+                <td><input type="number" name="ndc" placeholder=""></td>
+                <td>
+                    <p id="ndpc"></p>
+                </td>
+                <td>
+                    <p id="pu"></p>
+                </td>
+                <td>
+                    <p id="ptpp"></p>
+                </td>
+            </tr>
+        </table>
+
+
+        <input type="button" onclick="addSelect()" value="Add">
+    </form>
+</body>
+
+</html>
